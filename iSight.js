@@ -165,7 +165,7 @@ iSight.prototype.handleStreamRequest = function(request) {
       if (sessionInfo) {
         var width = 1280;
         var height = 720;
-        var fps = 25;
+        var fps = 30;
         var bitrate = 300;
 
         let videoInfo = request["video"];
